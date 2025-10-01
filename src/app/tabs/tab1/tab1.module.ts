@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab1Page } from './tab1.page';
 import { ExploreContainerComponentModule } from '../../explore-container/explore-container.module';
-import { TabsPageModule } from '../tabs.module';
+import { Tab1PageRoutingModule } from './tab1.routing.module';
 
 @NgModule({
   imports: [
@@ -14,7 +14,7 @@ import { TabsPageModule } from '../tabs.module';
     FormsModule,
     ExploreContainerComponentModule,
     RouterModule.forChild([{ path: '', component: Tab1Page }]),
-    TabsPageModule
+    Tab1PageRoutingModule,
   ],
   declarations: [Tab1Page]
 })

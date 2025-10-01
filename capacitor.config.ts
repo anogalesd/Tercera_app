@@ -3,7 +3,7 @@ const config: CapacitorConfig = {
   appId: "io.ionic.demo.pg.cap.ng",
   appName: "Photo Gallery Cap Ng",
   bundledWebRuntime: false,
-  npmClient: "npm",
+  //npmClient: "npm",
   webDir: "www",
 };
 

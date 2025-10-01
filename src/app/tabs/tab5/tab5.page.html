@@ -1,9 +1,15 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>tab5</ion-title>
+    <ion-title>Alarma</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Alarma</ion-title>
+    </ion-toolbar>
+  </ion-header>
 
+  <app-explore-container name="Alarma"></app-explore-container>
 </ion-content>

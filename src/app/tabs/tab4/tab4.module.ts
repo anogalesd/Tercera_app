@@ -5,7 +5,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { Tab4Page } from './tab4.page';
 import { ExploreContainerComponentModule } from '../../explore-container/explore-container.module';
-import { TabsPageModule } from '../tabs.module';
+import { Tab4PageRoutingModule } from './tab4.routing.module';
 
 @NgModule({
   imports: [
@@ -14,7 +14,7 @@ import { TabsPageModule } from '../tabs.module';
     IonicModule,
     ExploreContainerComponentModule,
     RouterModule.forChild([{ path: '', component: Tab4Page }]),
-    TabsPageModule,
+    Tab4PageRoutingModule,
   ],
   declarations: [Tab4Page]
 })
