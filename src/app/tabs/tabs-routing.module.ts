@@ -38,7 +38,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'tab4',
+        path: 'ayuda',
         children: [
           {
             path: '',
@@ -48,7 +48,7 @@ const routes: Routes = [
         ]
       },
       {
-        path: 'tab5',
+        path: 'alarma',
         children: [
           {
             path: '',
